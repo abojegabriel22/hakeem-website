@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="backdrop" x1="600" x2="600" y1="0" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#514532"/>
+      <stop offset=".48" stop-color="#29251d"/>
+      <stop offset="1" stop-color="#11110f"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="matrix(375 600 -390 244 795 131)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c7a66c" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#c7a66c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#backdrop)" d="M0 0h1200v900H0z"/>
+  <path fill="url(#light)" d="M0 0h1200v900H0z"/>
+  <path stroke="#c8a66a" stroke-opacity=".18" d="M812 0v900M940 0v900M1068 0v900"/>
+  <path fill="#151410" d="M0 717c221-75 405-57 594 20 195 79 386 97 606 19v144H0V717Z"/>
+  <path stroke="#d2b174" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".52" stroke-width="2" d="M818 286c-12 31-8 66 13 96m-193 292c-14 12-17 30-5 43l47 29"/>
+  <path fill="#0c0c0b" fill-opacity=".28" d="M0 0h1200v900H0z"/>
+</svg>

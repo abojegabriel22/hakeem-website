@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root {
+	font-family: 'DM Sans', sans-serif;
+	color: #f4f0e8;
+	background: #11110f;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--ink: #11110f;
+	--ink-soft: #191916;
+	--paper: #f4f0e8;
+	--muted: #aaa69c;
+	--line: rgb(244 240 232 / 15%);
+	--gold: #c8a66a;
+	--gold-light: #e2c894;
+	--surface: #151512;
+	--surface-hero: #141411;
+	--surface-raised: #191916;
+	--surface-contrast: #27241d;
+	--surface-deep: #0d0d0c;
+	--text-secondary: #c3bfb5;
+	--text-soft: #d2cec5;
+	--text-bright: #f0ece3;
+	--text-subtle: #77746e;
+	--field-bg: #11110f;
+	--field-border: #3a3933;
+	--header-bg: rgb(17 17 15 / 94%);
+	--hero-mid: rgb(17 17 15 / 88%);
+	--hero-soft: rgb(17 17 15 / 20%);
+	--hero-mobile-mid: rgb(17 17 15 / 94%);
+	--serif: 'Playfair Display', Georgia, serif;
+}
+
+:root[data-theme='light'] {
+	color: #24221e;
+	background: #f7f4ee;
+
+	--ink: #f7f4ee;
+	--ink-soft: #eee9df;
+	--paper: #24221e;
+	--muted: #6e685f;
+	--line: rgb(42 37 29 / 17%);
+	--gold: #98743e;
+	--gold-light: #77592e;
+	--surface: #eeeae1;
+	--surface-hero: #f0ede5;
+	--surface-raised: #e9e4d9;
+	--surface-contrast: #ddd5c5;
+	--surface-deep: #e7e2d8;
+	--text-secondary: #514d46;
+	--text-soft: #47433c;
+	--text-bright: #26231f;
+	--text-subtle: #777168;
+	--field-bg: #fffefa;
+	--field-border: #c7c0b3;
+	--header-bg: rgb(247 244 238 / 95%);
+	--hero-mid: rgb(247 244 238 / 88%);
+	--hero-soft: rgb(247 244 238 / 20%);
+	--hero-mobile-mid: rgb(247 244 238 / 94%);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	min-width: 320px;
+	scroll-behavior: smooth;
+}
+
+body {
+	min-width: 320px;
+	margin: 0;
+	background: var(--ink);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'DM Sans', sans-serif;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+	-webkit-tap-highlight-color: transparent;
+}
+
+button,
+input,
+select,
+textarea {
+	font: inherit;
+}
+
+a {
+	color: inherit;
+}
+
+::selection {
+	color: var(--ink);
+	background: var(--gold-light);
+}
+
+:focus-visible {
+	outline: 2px solid var(--gold-light);
+	outline-offset: 4px;
+}

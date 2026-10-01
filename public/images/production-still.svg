@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="500" x2="500" y1="0" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#66563b"/><stop offset=".6" stop-color="#29251c"/><stop offset="1" stop-color="#121210"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(215 355 -236 143 510 145)" gradientUnits="userSpaceOnUse"><stop stop-color="#e3c27d" stop-opacity=".8"/><stop offset="1" stop-color="#d4ad61" stop-opacity="0"/></radialGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1000v750H0z"/><path fill="url(#glow)" d="M0 0h1000v750H0z"/>
+  <circle cx="512" cy="275" r="108" fill="#f1d394" fill-opacity=".16"/>
+  <path fill="#151410" d="m0 460 142-78 96 52 151-119 111 73 103-87 119 85 92-51 186 93v322H0V460Z"/>
+  <path fill="#0c0c0b" d="m0 565 197-83 139 67 152-101 148 94 125-67 239 78v197H0V565Z"/>
+  <path stroke="#d8b775" stroke-opacity=".38" d="M0 626h1000M0 659h1000"/>
+  <path fill="#c8a66a" fill-opacity=".25" d="M0 0h13v750H0zM987 0h13v750h-13z"/>
+</svg>
