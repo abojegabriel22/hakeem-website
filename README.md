@@ -1,5 +1,13 @@
 # React + TypeScript + Vite
 
+## Booking enquiries
+
+The booking form submits multipart form data (including an optional attachment) to
+`POST /api/booking`. During local development, Vite proxies `/api` to the backend
+running at `http://localhost:3000`. Set `VITE_BOOKING_API_URL` to the full booking
+endpoint URL when the backend is hosted separately; configure the backend's
+`FRONTEND_ORIGIN` to allow this site's origin.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
