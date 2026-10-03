@@ -79,8 +79,13 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
             <p>International film, television, theatre and voice.</p>
           </div>
           <nav className="footer-links" aria-label="Footer navigation">
-            {navigation.slice(1).map((item) => <a key={item.href} href={item.href}>{item.label}</a>)}
-            <a href="#/booking">Bookings</a>
+            <div className="footer-link-list">
+              {navigation.slice(1).map((item) => <a key={item.href} href={item.href}>{item.label}</a>)}
+              <a href="#/booking">Bookings</a>
+            </div>
+            <a className="footer-developer-credit" href="https://abojeprofile.netlify.app" target="_blank" rel="noreferrer">
+              Designed &amp; developed by Aboje <span aria-hidden="true">↗</span>
+            </a>
           </nav>
         </div>
         <div className="footer-bottom">
